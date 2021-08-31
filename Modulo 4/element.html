@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto Element</title>
+    <script src="8elements.js"></script>
+    <style>
+        .colorNegro{
+            background: #000000;
+        }
+
+        .colorAzul{
+            background: #3933FF;
+        }
+    </style>
+</head>
+<body onload="iniciar()">
+    <section>
+        <h1>Website</h1>
+        <p id="subtitulo" class="colorAzul">El mejor sitio web</p>
+        <p id="contenido">Estamos trabajando con el objeto documento</p>
+        <div id="introduccion">
+            <p id="tema">Temas</p>
+            <p id="contenido">Menu</p>
+        </div>
+    </section>
+    <button type="button" onclick="modificarProps()">Modificar propiedades</button>
+    <button type="button" onclick="cambiarColor()">Cambiar color </button>
+    <button type="button" onclick="switchColor()">Switch Color </button>
+    <button type="button" onclick="cambiarTexto()">Cambiar Texto </button>
+    <button type="button" onclick="agregarElemento()">Añadir Elemento </button>
+</body>
+</html>
